@@ -1,0 +1,10 @@
+songs = {'gunna x roddy rich - cooler than a bitch (slowed + reverb)' : 'https://www.youtube.com/watch?v=Ze-sF9fUyas',
+		 'gunna & travis scott - top floor (slowed + reverb)': 			'https://www.youtube.com/watch?v=OKpefO231-k',
+		 'gunna x young thug - dollaz on my head (slowed + reverb)': 	'https://www.youtube.com/watch?v=hl8d-xsLGyE',
+		 'Travis Scott - sdp interlude (Extended)': 					'https://www.youtube.com/watch?v=yQORL_z-UsA',
+		 'gunna - met gala (slowed + reverb)':							'https://www.youtube.com/watch?v=eLWu39VqbqU',
+		 'gunna - argentina (slowed + reverb)':							'https://www.youtube.com/watch?v=-ZyhufwB7aU',
+		 'gunna - wunna (slowed + reverb':								'https://www.youtube.com/watch?v=x_Sp-vBrIZo',
+		 'THE SCOTTS, Travis Scott, Kid Cudi - THE SCOTTS (Chase B + Mike Dean + Noax Extended Intro)':'https://www.youtube.com/watch?v=HaunihIsIac',
+		 'future - draco (slowed + reverb)':							'https://www.youtube.com/watch?v=s2qMWXeSE6E',
+		 'xxxtentacion & joey bada$$ - infinity (888)﹝slowed + reverb)':'https://www.youtube.com/watch?v=wYoLrCg6uQ0'}
