@@ -8,7 +8,7 @@ import os
 from songsyt import songs
 
 '''
-MODE 1 OPENS A YOUTUBE VIDEO OF A SONG, MODE 2 PLAYS A SUCCESION OF BEEP 
+MODE 1 OPENS A YOUTUBE VIDEO OF A SONG, MODE 2 PLAYS A SUCCESION OF BEEPS
 '''
 def alarm(mode):
 	if mode == 1:
@@ -52,7 +52,7 @@ def pomodoro():
 			break
 		else:
 			print('INVALID OPTION. TRY AGAIN.')				
-	alarm(2)
+	alarm(1)
 	while True:	
 		start = input('START BREAK!\nENTER "1" FOR 5 MINUTES "2" FOR 15 MINUTES: ')
 		if start == '1':
