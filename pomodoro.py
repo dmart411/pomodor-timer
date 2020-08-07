@@ -30,7 +30,9 @@ def setTimer(length): # takes arguments as minutes
 		if dtnow >= dfinal:
 			break
 		delta = dfinal - dtnow 
-		print('TIME LEFT: ' + str(math.trunc(delta.total_seconds()/60))+' MINUTES '+str(round(delta.total_seconds()%60)) + ' SECONDS')
+		minutes = math.trunc(delta.total_seconds()/60)
+		seconds = round(delta.total_seconds()%60)
+		print('TIME LEFT: ' + str(minutes) + ' MINUTES ' + str(seconds) + ' SECONDS')
 		time.sleep(1)
 '''
 POMODORO TIMER LOGIC. GIVES USER CHOICE BETWEEN CLASSIC MODE OR CUSTOM MODE,
