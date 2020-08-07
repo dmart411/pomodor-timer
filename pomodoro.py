@@ -45,8 +45,8 @@ def pomodoro():
 			setTimer(25)
 			break
 		if start == '2': 
-			length = input("ENTER LENGTH OF POMODORO (IN MINUTES) BETWEEN 1 AND 60: ")
 			while True:
+				length = input("ENTER LENGTH OF POMODORO (IN MINUTES) BETWEEN 1 AND 60: ")
 				if length.isdigit() and int(length) >= 1 and int(length) <= 60: 
 					break
 				print('INVALID LENGTH')
@@ -76,8 +76,8 @@ def main():
 	pomodoro()
 	count += 1
 	print('POMODORO ENDED!! TOTAL POMODOROS - ' +str(count))
-	cont = input('START AGAIN? (Y/N): ')
 	while True:
+		cont = input('START AGAIN? (Y/N): ')
 		if cont.upper() == 'Y':
 			pomodoro()
 			count += 1
